@@ -1,0 +1,561 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav {
+  background-color: rgb(53, 134, 166);
+  padding: 15px;
+}
+
+ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+li button {
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 0;
+}
+
+.section-1 {
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 0px 150px;
+}
+
+.about-web {
+  height: 350px;
+  background-color: skyblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-web .left-img {
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+.left-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-web .right-text {
+  width: 50%;
+  text-transform: capitalize;
+  padding: 30px;
+}
+
+.right-text h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 55px;
+  font-size: 30px;
+}
+
+.right-text h6 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.right-text button {
+  padding: 8px;
+  margin: 30px 0px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(40, 132, 169);
+  color: white;
+  cursor: pointer;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.women-clothes #text {
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* border-bottom: 2px solid black; */
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+.women-clothes-cards {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 245px 245px 245px 245px;
+  row-gap: 30px;
+  place-content: center;
+}
+
+.women-clothes-cards img {
+  width: 220px;
+}
+
+.section-3 {
+  margin: 50px auto;
+  padding: 0px 150px;
+  height: 100%;
+  width: 100%;
+}
+
+.about-web-2 {
+  height: 350px;
+  background-color: skyblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-web-2 .left-img-2 {
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+.left-img-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-web-2 .right-text-2 {
+  width: 50%;
+  text-transform: capitalize;
+  padding: 30px;
+}
+
+.right-text-2 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 55px;
+  font-size: 30px;
+}
+
+.right-text-2 h6 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.right-text-2 button {
+  padding: 8px;
+  margin: 30px 0px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgb(40, 132, 169);
+  color: white;
+  cursor: pointer;
+}
+
+.section-4 {
+  width: 100%;
+  height: 100%;
+}
+
+.section-5 {
+  margin: 50px auto;
+  padding: 0px 150px;
+  height: 100%;
+  width: 100%;
+}
+
+.information {
+  background-color: skyblue;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-address {
+  width: 350px;
+  background-color: rgb(53, 134, 166);
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.email-address h2 {
+  font-weight: 100;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.email-address input {
+  padding: 3px 29px 3px 2px;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.email-address input::placeholder {
+  font-size: 10px;
+}
+
+.email-address button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#footer-text {
+  background-color: rgb(53, 134, 166);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  /* height: 100%; */
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer h1,
+h6 {
+  margin: 5px;
+}
+
+footer h1 {
+  text-transform: uppercase;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer hr {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .women-clothes-cards {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 30px;
+    place-content: center;
+  }
+
+  .women-clothes-cards img {
+    width: 150px;
+  }
+
+  .women-clothes #text h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-web .left-img {
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .left-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-web .right-text {
+    width: 30%;
+    text-transform: capitalize;
+    padding: 20px;
+  }
+
+  .right-text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  .about-web-2 .left-img-2 {
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .left-img-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-web-2 .right-text-2 {
+    width: 30%;
+    text-transform: capitalize;
+    padding: 20px;
+  }
+
+  .right-text-2 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .women-clothes-cards {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 30px;
+    place-content: center;
+  }
+
+  .women-clothes-cards img {
+    width: 150px;
+  }
+
+  .women-clothes #text h1 {
+    font-size: 17px;
+  }
+
+  .section-1 {
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 0px 90px;
+    flex-wrap: wrap;
+  }
+
+  .about-web {
+    height: 450px;
+    background-color: skyblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-web .left-img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .left-img img {
+    width: 100%;
+    height: 230px;
+  }
+
+  .about-web .right-text {
+    width: 100%;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .right-text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .right-text button {
+    padding: 8px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgb(40, 132, 169);
+    color: white;
+    cursor: pointer;
+  }
+
+  .section-3 {
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 0px 90px;
+    flex-wrap: wrap;
+  }
+
+  .about-web-2 {
+    height: 450px;
+    background-color: skyblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-web-2 .left-img-2 {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .left-img-2 img {
+    width: 100%;
+    height: 230px;
+  }
+
+  .about-web-2 .right-text-2 {
+    width: 100%;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .right-text-2 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .section-5 {
+    margin: 50px auto;
+    padding: 0px 50px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .information {
+    background-color: skyblue;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .email-address {
+    width: 300px;
+    background-color: rgb(53, 134, 166);
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  .email-address h2 {
+    font-weight: 100;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .email-address input {
+    padding: 3px 29px 3px 2px;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .email-address input::placeholder {
+    font-size: 10px;
+  }
+
+  .email-address button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section-1 {
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 0px 0px;
+  }
+  .women-clothes-cards {
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 245px;
+    row-gap: 30px;
+    place-content: center;
+  }
+
+  .women-clothes-cards img {
+    width: 230px;
+  }
+
+  .section-3 {
+    margin: 50px auto;
+    padding: 0px 0px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .section-5 {
+    margin: 50px auto;
+    padding: 0px 0px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .information {
+    background-color: skyblue;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .email-address {
+    width: 250px;
+    background-color: rgb(53, 134, 166);
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    padding: 30px 0px;
+    border-radius: 10px;
+  }
+
+  .email-address h2 {
+    font-weight: 100;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .email-address input {
+    padding: 5px;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .email-address input::placeholder {
+    font-size: 10px;
+  }
+
+  .email-address button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
